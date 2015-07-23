@@ -4,7 +4,7 @@
 
 //Credit: https://gist.github.com/bjhomer/2048571
 //Also: http://stackoverflow.com/a/23398487/1091751
-@implementation UIWebView (HackishAccessoryHiding)
+@implementation UIView (HackishAccessoryHiding)
  
 static const char * const hackishFixClassName = "UIWebBrowserViewMinusAccessoryView";
 static Class hackishFixClass = Nil;
